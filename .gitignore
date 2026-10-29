@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data: only what the agent reads at run time is committed
+#   data/index/chroma/     vector database (4,872 chunks)
+#   data/processed/        timetable tables
+#   data/raw/iitj_faculty.csv
+data/raw/*
+!data/raw/iitj_faculty.csv
+data/index/embedding_cache.pkl
+
+# Generated at run time
+logs/
+drafts/
+
+# Generated report artefacts (rebuilt by report/build_pdf.py)
+report/*.pdf
+report/figures/

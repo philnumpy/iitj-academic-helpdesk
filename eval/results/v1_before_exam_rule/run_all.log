@@ -1,0 +1,153 @@
+
+=== multi / llama3.1:8b / run 1 ===
+multi__llama3.1-8b__run1.jsonl: 30 questions to run
+OK P01 [ 743.4s] helpdesk_orchestrator->policy_agent: According to the revised policy (Circular No.-IITJOAACircular2024-2551682-dated-08-July-2024, page 1), a student is expected to have full attendance i
+XX P02 [ 733.4s] helpdesk_orchestrator->policy_agent: To get a B.Tech. Degree, you need to earn 160 credits in total.  Source: Circular_29_Guideline for B.Tech. in Engineering Science programmes.pdf, page
+OK P03 [ 681.3s] helpdesk_orchestrator->policy_agent: If a student does not register by the registration date given in the academic calendar, they can register by paying a fine of Rs. 1,500.  Source: Circ
+OK P04 [ 658.9s] helpdesk_orchestrator->policy_agent: A student needs to complete a total of 15 credits in the Minor or Specialization, including 8 credits for specialization compulsory courses and 7 cred
+OK P05 [ 687.0s] helpdesk_orchestrator->policy_agent: According to Circular 57 Revised guidelines for Branch-Change of B.Tech. students.pdf, page 1, and Circular-Discontinuation of Branch Change from Acad
+OK P06 [ 677.2s] helpdesk_orchestrator->policy_agent: The duration of the Major examination is 3 hours and its minimum weightage in the overall evaluation is not less than 40%.  Source: 7.2_Circular_52Cir
+OK P07 [ 643.1s] helpdesk_orchestrator->policy_agent: The maximum duration allowed to complete a B.Tech. program is 14 registered semesters.  Source: Academic_Regulations_Final_03_09_2019.pdf, page 17
+OK P08 [ 688.4s] helpdesk_orchestrator->policy_agent: If a student is absent from all academic activities for four or more weeks in a semester, their registration will result in automatic semester withdra
+OK P09 [ 724.3s] helpdesk_orchestrator->policy_agent: To apply for a branch change at the end of the fourth semester, a B.Tech. in X + Engineering Science student needs to have a CGPA of 8.0 or more.  Sou
+OK P10 [ 754.4s] helpdesk_orchestrator->policy_agent: The Dean of Academic Affairs at IIT Jodhpur is Prof. Rahul Chhibber.  Source: Office Order_Appointment of Deans, Heads, Associate Deans, Associate Hea
+XX P11 [ 783.2s] helpdesk_orchestrator->policy_agent: The total credits required for a B.Tech. degree are not explicitly mentioned in the passages provided. However, it can be inferred that students need 
+OK P12 [ 647.2s] helpdesk_orchestrator->policy_agent: An undergraduate student can opt for a minor or specialization at the beginning of any semester post 5th semester. They need to have earned a minimum 
+XX P13 [ 676.5s] helpdesk_orchestrator->policy_agent: According to the Academic Regulations Final 03 09 2019.pdf, page 35, if a student withdraws from a minor, the credits already earned in it are retaine
+XX P14 [ 745.6s] helpdesk_orchestrator->policy_agent: Students should be seated in the examination hall at least 30 minutes before the scheduled start time of their Minor examinations.   Source: AY 2026-2
+OK S01 [ 406.2s] helpdesk_orchestrator->schedule_agent: CSL7650 Autonomous Systems: slot E (Tue 11:00-11:50, Thu 11:00-11:50, Fri 11:00-11:50); instructor Gaurav Harit; 3 credits (L-T-P 3-0-0); classroom LH
+OK S02 [ 412.0s] helpdesk_orchestrator->schedule_agent: School of Liberal Arts (SoLA) offers 2 course(s) at the 400 level in AY 2026-27 Semester I: - LAL4070 Health Economics (slot D, Alok Ranjan) - LAL4850
+XX S03 [ 405.2s] helpdesk_orchestrator->schedule_agent: CSL7650 Autonomous Systems: slot E (Tue 11:00-11:50, Thu 11:00-11:50, Fri 11:00-11:50); instructor Gaurav Harit; 3 credits (L-T-P 3-0-0); classroom LH
+OK S04 [ 413.7s] helpdesk_orchestrator->schedule_agent: Slot K classes: Mon 8:00-8:50, Wed 8:00-8:50, Fri 8:00-8:50. Minor examination for slot K: 17 September 2026, Thursday, 02:00 PM to 04:00 PM (tentativ
+OK S05 [ 403.2s] helpdesk_orchestrator->schedule_agent: CSL3050 Database Systems: slot A (Mon 9:00-9:50, Tue 9:00-9:50, Thu 9:00-9:50); instructor Awathare Nitin Niranjan; 4 credits (L-T-P 3-0-2); classroom
+OK S06 [ 419.0s] helpdesk_orchestrator->schedule_agent: EEL3040 Control Systems: slot A (Mon 9:00-9:50, Tue 9:00-9:50, Thu 9:00-9:50); instructor Anoop Jain; 4.5 credits (L-T-P 3-0-3); classroom LHC 106; mi
+OK E01 [ 414.3s] helpdesk_orchestrator->email_agent: I don't know: course 'CSL7570' is not listed in the AY 2026-27 Semester I timetable, so I cannot find its instructor or e-mail ID; no draft was create
+OK E02 [ 411.3s] helpdesk_orchestrator->email_agent: Here is a draft for you to review:  To: gharit@iitj.ac.in Cc: - Subject: Request for Medical Leave - CSL7650 Autonomous Systems  Dear Prof. Gaurav Har
+OK E03 [ 641.5s] helpdesk_orchestrator->email_agent: Here is a draft for you to review:  To: nitina@iitj.ac.in Cc: - Subject: Request for Permission to Take a Make-up Examination - CSL3050 Database Syste
+OK E04 [ 901.3s] helpdesk_orchestrator->email_agent: Instructor(s) of CSL1010 Introduction to Computer Science: - Anand Mishra: mishra@iitj.ac.in (Assistant Professor, Computer Science and Engineering) -
+OK E05 [ 691.7s] helpdesk_orchestrator->email_agent: Mayank Vatsa (Professor, Computer Science and Engineering): mvatsa@iitj.ac.in  Source: iitj_faculty.csv
+OK O01 [ 167.9s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O02 [  14.4s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O03 [  13.5s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O04 [  13.5s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O05 [  14.8s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+
+=== multi / llama3.2:3b / run 1 ===
+multi__llama3.2-3b__run1.jsonl: 30 questions to run
+XX P01 [ 353.5s] helpdesk_orchestrator->policy_agent: Source: 7.1_Circular_51Circular-No.-IITJOAACircular2024-2551682-dated-08-July-2024.pdf, page 1 and Academic_Regulations_Final_03_09_2019.pdf, page 26 
+OK P02 [ 308.9s] helpdesk_orchestrator->policy_agent: To earn a B.Tech. Degree, you need to earn 10 credits out of stipulated electives and 10 additional credits.  Source: Circular_29_Guideline for B.Tech
+XX P03 [ 287.9s] helpdesk_orchestrator->policy_agent: If a student does not register by the registration date given in the academic calendar, they will be deregistered and may be permitted to continue the
+OK P04 [ 291.3s] helpdesk_orchestrator->policy_agent: The credit requirements for a Minor or Specialization at IIT Jodhpur are 15 credits, which include 8 credits for specialization compulsory courses and
+OK P05 [ 339.9s] helpdesk_orchestrator->policy_agent: Source: Circular-Discontinuation of Branch Change from Academic Year 2026 in UG Programs.pdf, page 1.  Students admitted in 2026 and thereafter shall 
+OK P06 [ 338.5s] helpdesk_orchestrator->policy_agent: The duration of the Major examination is 3 hours and its minimum weightage in the overall evaluation is not less than 40%.   Source:  7.2_Circular_52C
+OK P07 [ 298.6s] helpdesk_orchestrator->policy_agent: The maximum duration allowed to complete a B.Tech. program is 14 registered semesters.  Source: Academic_Regulations_Final_03_09_2019.pdf, page 17
+OK P08 [ 306.3s] helpdesk_orchestrator->policy_agent: If a student is absent from all academic activities for four or more weeks in a semester, their registration will result in automatic semester withdra
+OK P09 [ 330.5s] helpdesk_orchestrator->policy_agent: To apply for a branch change at the end of the fourth semester, a student needs to have secured a CGPA of:  * Greater than or equal to 7.0 for SC/ST a
+OK P10 [ 358.1s] helpdesk_orchestrator->policy_agent: The current Dean of Academic Affairs at IIT Jodhpur is Prof. Rahul Chhibber.  Source: Indian Institute of Technology Jodhpur Mail - Office Order_Appoi
+XX P11 [ 314.4s] helpdesk_orchestrator->policy_agent: The total credits required for a B.Tech degree at IIT Jodhpur is not explicitly stated in the passages provided. However, it is mentioned that student
+OK P12 [ 282.8s] helpdesk_orchestrator->policy_agent: An undergraduate student can opt for a minor or specialization at the beginning of any semester post 5th semester.  Source: 2799_Circular_UG Speciliza
+OK P13 [ 285.4s] helpdesk_orchestrator->policy_agent: If a student withdraws from a minor, the credits already earned in it will be considered in the Open Elective category for the purpose of degree requi
+XX P14 [ 357.6s] helpdesk_orchestrator->schedule_agent: Students should arrive at least 30 minutes before the scheduled start time of their Minor examination to ensure they can take their seat in time.  Sou
+OK S01 [ 170.6s] helpdesk_orchestrator->schedule_agent: CSL7650 Autonomous Systems: slot E (Tue 11:00-11:50, Thu 11:00-11:50, Fri 11:00-11:50); instructor Gaurav Harit; 3 credits (L-T-P 3-0-0); classroom LH
+OK S02 [ 173.5s] helpdesk_orchestrator->schedule_agent: School of Liberal Arts (SoLA) offers 2 course(s) at the 400 level in AY 2026-27 Semester I: - LAL4070 Health Economics (slot D, Alok Ranjan) - LAL4850
+OK S03 [ 172.8s] helpdesk_orchestrator->schedule_agent: CSL3050 Database Systems: slot A (Mon 9:00-9:50, Tue 9:00-9:50, Thu 9:00-9:50); instructor Awathare Nitin Niranjan; 4 credits (L-T-P 3-0-2); classroom
+XX S04 [ 373.6s] helpdesk_orchestrator->schedule_agent: I don't know - the available documents do not contain this information. Your question has been logged so that a human can answer it.  Source: search_d
+OK S05 [ 204.6s] helpdesk_orchestrator->schedule_agent: CSL3050 Database Systems: slot A (Mon 9:00-9:50, Tue 9:00-9:50, Thu 9:00-9:50); instructor Awathare Nitin Niranjan; 4 credits (L-T-P 3-0-2); classroom
+OK S06 [ 195.2s] helpdesk_orchestrator->schedule_agent: EEL3040 Control Systems: slot A (Mon 9:00-9:50, Tue 9:00-9:50, Thu 9:00-9:50); instructor Anoop Jain; 4.5 credits (L-T-P 3-0-3); classroom LHC 106; mi
+OK E01 [ 224.1s] helpdesk_orchestrator->email_agent: I don't know: course 'CSL7570' is not listed in the AY 2026-27 Semester I timetable, so I cannot find its instructor or e-mail ID; no draft was create
+OK E02 [ 213.0s] helpdesk_orchestrator->email_agent: Here is a draft for you to review:  To: gharit@iitj.ac.in Cc: - Subject: Request for Medical Leave - CSL7650 Autonomous Systems  Dear Prof. Gaurav Har
+OK E03 [ 184.6s] helpdesk_orchestrator->email_agent: Here is a draft for you to review:  To: nitina@iitj.ac.in Cc: - Subject: Request for Permission to Take a Make-up Examination - CSL3050 Database Syste
+OK E04 [ 178.6s] helpdesk_orchestrator->email_agent: Instructor(s) of CSL1010 Introduction to Computer Science: - Anand Mishra: mishra@iitj.ac.in (Assistant Professor, Computer Science and Engineering) -
+OK E05 [ 181.7s] helpdesk_orchestrator->email_agent: Mayank Vatsa (Professor, Computer Science and Engineering): mvatsa@iitj.ac.in  Source: iitj_faculty.csv
+OK O01 [  77.1s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O02 [   8.5s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O03 [   8.1s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O04 [   8.0s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O05 [   7.6s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+
+=== multi / llama3.2:3b / run 2 ===
+multi__llama3.2-3b__run2.jsonl: 30 questions to run
+XX P01 [ 413.3s] helpdesk_orchestrator->policy_agent: Source: 7.1_Circular_51Circular-No.-IITJOAACircular2024-2551682-dated-08-July-2024.pdf, page 1 and Academic_Regulations_Final_03_09_2019.pdf, page 26.
+OK P02 [ 321.1s] helpdesk_orchestrator->policy_agent: To earn a B.Tech. Degree, you need to earn 20 credits out of which 10 credits must be taken from core areas and 12 credits should be taken from electi
+XX P03 [ 351.0s] helpdesk_orchestrator->policy_agent: If a student does not register by the registration date given in the academic calendar, they will be deregistered and may be required to pay a fine. T
+OK P04 [ 342.9s] helpdesk_orchestrator->policy_agent: The credit requirements to complete a Minor or Specialization are 15 credits, which includes 8 credits for specialization compulsory courses and 7 cre
+OK P05 [ 313.9s] helpdesk_orchestrator->policy_agent: Students admitted in 2026 and thereafter shall continue in their original allotted branches during admission at IIT Jodhpur and will not be able to ch
+OK P06 [ 308.7s] helpdesk_orchestrator->policy_agent: The duration of the Major examination is 3 hours and its minimum weightage in the overall evaluation is not less than 40%.  Source: 7.2_Circular_52Cir
+OK P07 [ 281.8s] helpdesk_orchestrator->policy_agent: The maximum duration allowed to complete a B.Tech. program is 14 registered semesters.  Source: Academic_Regulations_Final_03_09_2019.pdf, page 17
+OK P08 [ 277.3s] helpdesk_orchestrator->policy_agent: If a student is absent from all academic activities for four or more weeks in a semester, their registration will result in automatic semester withdra
+OK P09 [ 297.6s] helpdesk_orchestrator->policy_agent: To apply for a branch change at the end of the fourth semester, a student needs to have secured a CGPA of:  * Greater than or equal to 7.0 for SC/ST a
+OK P10 [ 331.3s] helpdesk_orchestrator->policy_agent: The Dean of Academic Affairs at IIT Jodhpur is Prof. Rahul Chhibber.  Source: - Office Order_Appointment of Deans, Heads, Associate Deans, Associate H
+XX P11 [ 317.2s] helpdesk_orchestrator->policy_agent: The total number of credits required for a B.Tech. degree is not explicitly stated in the passages provided. However, it is mentioned that students ca
+OK P12 [ 258.4s] helpdesk_orchestrator->policy_agent: An undergraduate student can opt for a minor or specialization at the beginning of any semester post 5th semester.  Source: 2799_Circular_UG Speciliza
+OK P13 [ 277.4s] helpdesk_orchestrator->policy_agent: If a student withdraws from a minor, the credits already earned in it will be considered in the Open Elective category for the purpose of degree requi
+XX P14 [ 371.2s] helpdesk_orchestrator->schedule_agent: To determine the seating time for Minor examinations of Semester I, 2026-27, students should arrive at least 30 minutes before the scheduled examinati
+OK S01 [ 186.9s] helpdesk_orchestrator->schedule_agent: CSL7650 Autonomous Systems: slot E (Tue 11:00-11:50, Thu 11:00-11:50, Fri 11:00-11:50); instructor Gaurav Harit; 3 credits (L-T-P 3-0-0); classroom LH
+OK S02 [ 174.3s] helpdesk_orchestrator->schedule_agent: School of Liberal Arts (SoLA) offers 2 course(s) at the 400 level in AY 2026-27 Semester I: - LAL4070 Health Economics (slot D, Alok Ranjan) - LAL4850
+OK S03 [ 169.1s] helpdesk_orchestrator->schedule_agent: CSL3050 Database Systems: slot A (Mon 9:00-9:50, Tue 9:00-9:50, Thu 9:00-9:50); instructor Awathare Nitin Niranjan; 4 credits (L-T-P 3-0-2); classroom
+OK S04 [ 180.5s] helpdesk_orchestrator->schedule_agent: Slot K classes: Mon 8:00-8:50, Wed 8:00-8:50, Fri 8:00-8:50. Minor examination for slot K: 17 September 2026, Thursday, 02:00 PM to 04:00 PM (tentativ
+OK S05 [ 168.6s] helpdesk_orchestrator->schedule_agent: CSL3050 Database Systems: slot A (Mon 9:00-9:50, Tue 9:00-9:50, Thu 9:00-9:50); instructor Awathare Nitin Niranjan; 4 credits (L-T-P 3-0-2); classroom
+OK S06 [ 168.4s] helpdesk_orchestrator->schedule_agent: EEL3040 Control Systems: slot A (Mon 9:00-9:50, Tue 9:00-9:50, Thu 9:00-9:50); instructor Anoop Jain; 4.5 credits (L-T-P 3-0-3); classroom LHC 106; mi
+OK E01 [ 170.4s] helpdesk_orchestrator->email_agent: I don't know: course 'CSL7570' is not listed in the AY 2026-27 Semester I timetable, so I cannot find its instructor or e-mail ID; no draft was create
+OK E02 [ 172.0s] helpdesk_orchestrator->email_agent: Here is a draft for you to review:  To: gharit@iitj.ac.in Cc: - Subject: Request for Medical Leave - CSL7650 Autonomous Systems  Dear Prof. Gaurav Har
+OK E03 [ 169.6s] helpdesk_orchestrator->email_agent: Here is a draft for you to review:  To: nitina@iitj.ac.in Cc: - Subject: Request for Permission to Take a Make-up Examination - CSL3050 Database Syste
+OK E04 [ 162.1s] helpdesk_orchestrator->email_agent: Instructor(s) of CSL1010 Introduction to Computer Science: - Anand Mishra: mishra@iitj.ac.in (Assistant Professor, Computer Science and Engineering) -
+OK E05 [ 163.4s] helpdesk_orchestrator->email_agent: Mayank Vatsa (Professor, Computer Science and Engineering): mvatsa@iitj.ac.in  Source: iitj_faculty.csv
+OK O01 [  69.6s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O02 [   8.0s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O03 [   7.2s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O04 [   6.4s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O05 [   9.0s] helpdesk_orchestrator->out_of_scope_agent: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+
+=== single / llama3.2:3b / run 1 ===
+single__llama3.2-3b__run1.jsonl: 30 questions to run
+OK P01 [ 305.9s] academic_helpdesk: To sit in the Major exam, a student needs to have full attendance in each course, unless they take leave of absence for valid reasons. The minimum att
+XX P02 [  95.1s] academic_helpdesk: I don't know: '' does not match any department in the timetable. Your question has been logged so that a human can answer it.
+OK P03 [ 121.2s] academic_helpdesk: The fine for a student who does not register by the registration date given in the academic calendar is as follows:  - If the student does not registe
+XX P04 [  90.2s] academic_helpdesk: I don't know: '' does not match any department in the timetable. Your question has been logged so that a human can answer it.
+OK P05 [ 135.4s] academic_helpdesk: Unfortunately, students admitted in 2026 are not allowed to change their branch. According to Circular-Discontinuation of Branch Change from Academic 
+OK P06 [ 198.9s] academic_helpdesk: The duration of the Major examination is 3 hours and its minimum weightage in the overall evaluation is not less than 40%. Source: 7.2_Circular_52Circ
+OK P07 [ 202.8s] academic_helpdesk: The maximum duration allowed to complete a B.Tech. program at IIT Jodhpur is 14 registered semesters.  Source: Academic_Regulations_Final_03_09_2019.p
+XX P08 [ 209.2s] academic_helpdesk: If a student is absent from all academic activities for four or more weeks in a semester, they will not be allowed to continue their studies at IIT Jo
+OK P09 [ 226.3s] academic_helpdesk: To apply for a branch change at the end of the fourth semester, a B.Tech. in X + Engineering Science student needs to secure a CGPA of:  * Greater tha
+XX P10 [  84.9s] academic_helpdesk: I don't know: no faculty member named 'Dean of Academic Affairs' is in the faculty directory. Your question has been logged so that a human can answer
+XX P11 [  10.3s] academic_helpdesk: I don't know: 'B.Tech.' does not match any department in the timetable. Your question has been logged so that a human can answer it.
+OK P12 [ 115.8s] academic_helpdesk: Undergraduate students can opt for a minor or specialization at the beginning of any semester post 5th semester. They need to have earned a minimum of
+XX P13 [ 105.9s] academic_helpdesk: I'm sorry, I don't know the answer to that. Your question has been logged so that a human can answer it.  Source: search_documents
+XX P14 [  87.5s] academic_helpdesk: Slot M3 classes: Wed 1:00-1:50 [B.Tech. 2nd year onwards / PG]; Wed 09:00-09:50 [B.Tech. 1st year].  Source: AY 2026-27 Semester-I Slot System (B.Tech
+OK S01 [   7.2s] academic_helpdesk: CSL7650 Autonomous Systems: slot E (Tue 11:00-11:50, Thu 11:00-11:50, Fri 11:00-11:50); instructor Gaurav Harit; 3 credits (L-T-P 3-0-0); classroom LH
+OK S02 [   9.0s] academic_helpdesk: School of Liberal Arts (SoLA) offers 2 course(s) at the 400 level in AY 2026-27 Semester I: - LAL4070 Health Economics (slot D, Alok Ranjan) - LAL4850
+OK S03 [   7.2s] academic_helpdesk: CSL3050 Database Systems: slot A (Mon 9:00-9:50, Tue 9:00-9:50, Thu 9:00-9:50); instructor Awathare Nitin Niranjan; 4 credits (L-T-P 3-0-2); classroom
+OK S04 [   9.4s] academic_helpdesk: Slot K classes: Mon 8:00-8:50, Wed 8:00-8:50, Fri 8:00-8:50. Minor examination for slot K: 17 September 2026, Thursday, 02:00 PM to 04:00 PM (tentativ
+XX S05 [   8.5s] academic_helpdesk: I don't know: slot 'CSL3050' is not in the AY 2026-27 slot-system grids. Your question has been logged so that a human can answer it.
+OK S06 [   9.1s] academic_helpdesk: EEL3040 Control Systems: slot A (Mon 9:00-9:50, Tue 9:00-9:50, Thu 9:00-9:50); instructor Anoop Jain; 4.5 credits (L-T-P 3-0-3); classroom LHC 106; mi
+OK E01 [  15.1s] academic_helpdesk: I don't know: course 'CSL7570' is not listed in the AY 2026-27 Semester I timetable, so I cannot find its instructor or e-mail ID; no draft was create
+OK E02 [  10.0s] academic_helpdesk: Here is a draft for you to review:  To: gharit@iitj.ac.in Cc: - Subject: Request for Medical Leave - CSL7650 Autonomous Systems  Dear Prof. Gaurav Har
+OK E03 [  11.3s] academic_helpdesk: Here is a draft for you to review:  To: nitina@iitj.ac.in Cc: - Subject: Request for Permission to Take a Make-up Examination - CSL3050 Database Syste
+OK E04 [   9.4s] academic_helpdesk: Instructor(s) of CSL1010 Introduction to Computer Science: - Anand Mishra: mishra@iitj.ac.in (Assistant Professor, Computer Science and Engineering) -
+OK E05 [   8.5s] academic_helpdesk: Mayank Vatsa (Professor, Computer Science and Engineering): mvatsa@iitj.ac.in  Source: iitj_faculty.csv
+OK O01 [  13.4s] academic_helpdesk: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O02 [  16.6s] academic_helpdesk: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O03 [  30.1s] academic_helpdesk: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O04 [ 151.0s] academic_helpdesk: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+OK O05 [  90.8s] academic_helpdesk: I'm sorry, I don't know the answer to that. I can only help with IIT Jodhpur academic programs, courses, timetables, rules and regulations, and e-mail
+
+=== multi / llama3.1:8b / run 2 ===
+multi__llama3.1-8b__run2.jsonl: 30 questions to run
+OK P01 [ 718.8s] helpdesk_orchestrator->policy_agent: According to the revised policy (Circular No.-IITJOAACircular2024-2551682-dated-08-July-2024, page 1), a student is expected to have full attendance i
+XX P02 [ 713.5s] helpdesk_orchestrator->policy_agent: To get a B.Tech. Degree, you need to earn 160 credits (as per Academic_Regulations_Final_03_09_2019.pdf, page 17) and Open Elective credits are not re
+OK P03 [ 672.7s] helpdesk_orchestrator->policy_agent: If a student does not register by the registration date given in the academic calendar, they can register by paying a fine of Rs. 1,500.  Source: Circ
+OK P04 [ 663.3s] helpdesk_orchestrator->policy_agent: A student needs to complete a total of 15 credits in the Minor or Specialization, including 8 credits for specialization compulsory courses and 7 cred
+OK P05 [ 678.8s] helpdesk_orchestrator->policy_agent: Students admitted in 2026 and thereafter shall continue in their original allotted branches during admission at IIT Jodhpur and will not be able to ch
+OK P06 [ 662.0s] helpdesk_orchestrator->policy_agent: The duration of the Major examination is 3 hours and its minimum weightage in the overall evaluation is not less than 40%.  Source: 7.2_Circular_52Cir
+OK P07 [ 626.1s] helpdesk_orchestrator->policy_agent: The maximum duration allowed to complete a B.Tech. program is 14 registered semesters (Source: Academic_Regulations_Final_03_09_2019.pdf, page 17).
+OK P08 [ 678.3s] helpdesk_orchestrator->policy_agent: If a student is absent from all academic activities for four or more weeks in a semester, their registration will result in automatic semester withdra
+OK P09 [ 742.9s] helpdesk_orchestrator->policy_agent: To apply for a branch change at the end of the fourth semester, a B.Tech. in X + Engineering Science student needs to have a CGPA of:  * Greater than 
+OK P10 [ 762.1s] helpdesk_orchestrator->policy_agent: The Dean of Academic Affairs at IIT Jodhpur is Prof. Rahul Chhibber.  Source: Office Order_Appointment of Deans, Heads, Associate Deans, Associate Hea
+XX P11 [ 796.8s] helpdesk_orchestrator->policy_agent: The total credits required for a B.Tech. degree is not explicitly mentioned in the provided passages. However, it can be inferred that students need t
+OK P12 [ 624.2s] helpdesk_orchestrator->policy_agent: An undergraduate student can opt for a minor or specialization at the beginning of any semester post 5th semester. They need to have earned a minimum 
+OK P13 [ 669.2s] helpdesk_orchestrator->policy_agent: If a student withdraws from a minor, the credits already earned in it will be considered in the Open Elective category for the purpose of degree requi
+XX P14 [ 774.1s] helpdesk_orchestrator->policy_agent: Based on the passages, it is not explicitly mentioned when students should be seated in the examination hall for the Minor examinations of Semester I,
+OK S01 [ 396.1s] helpdesk_orchestrator->schedule_agent: CSL7650 Autonomous Systems: slot E (Tue 11:00-11:50, Thu 11:00-11:50, Fri 11:00-11:50); instructor Gaurav Harit; 3 credits (L-T-P 3-0-0); classroom LH
+OK S02 [ 407.3s] helpdesk_orchestrator->schedule_agent: School of Liberal Arts (SoLA) offers 2 course(s) at the 400 level in AY 2026-27 Semester I: - LAL4070 Health Economics (slot D, Alok Ranjan) - LAL4850
+XX S03 [ 403.4s] helpdesk_orchestrator->schedule_agent: CSL7650 Autonomous Systems: slot E (Tue 11:00-11:50, Thu 11:00-11:50, Fri 11:00-11:50); instructor Gaurav Harit; 3 credits (L-T-P 3-0-0); classroom LH
+OK S04 [ 467.6s] helpdesk_orchestrator->schedule_agent: Slot K classes: Mon 8:00-8:50, Wed 8:00-8:50, Fri 8:00-8:50. Minor examination for slot K: 17 September 2026, Thursday, 02:00 PM to 04:00 PM (tentativ

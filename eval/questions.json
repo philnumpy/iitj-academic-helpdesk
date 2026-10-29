@@ -1,0 +1,527 @@
+[
+  {
+    "id": "P01",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "What is the attendance requirement to sit in the Major exam?",
+    "gold": "Per Circular 51 (8 July 2024) exam performance is no longer linked to attendance, but attendance must not fall below 75%; below 75% without valid reason the instructor can recommend de-registration (the 2019 regulation's C-grade rule is superseded). (Exam question: the 75% rule is the answer.)",
+    "expect": [
+      [
+        "75"
+      ]
+    ],
+    "sources": [
+      "Circular_51",
+      "Academic_Regulations"
+    ]
+  },
+  {
+    "id": "P02",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "How many Open Elective credits do I need to earn in order to get a B.Tech. Degree?",
+    "gold": "10 Open Elective (OE) credits.",
+    "expect": [
+      [
+        "re:(?i)\\b(10|ten)\\b"
+      ]
+    ],
+    "sources": [
+      "Academic_Regulations",
+      "Curriculum",
+      "Circular 31",
+      "B.Tech BB",
+      "B.Tech CHEM",
+      "B.Tech MT",
+      "B.Tech CI",
+      "Mechanical-Engineering",
+      "Engineering Science _ Office",
+      "Pre-Registration"
+    ]
+  },
+  {
+    "id": "P03",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "What is the fine if a student does not register by the registration date given in the academic calendar?",
+    "gold": "Rs 1,500 (register before the late-registration / add-drop deadline); after the late registration date the fine is Rs 10,000 / deregistration.",
+    "expect": [
+      [
+        "1500",
+        "1,500"
+      ]
+    ],
+    "sources": [
+      "Late Registration",
+      "Circular_2283"
+    ]
+  },
+  {
+    "id": "P04",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "How many credits are required to complete a Minor or Specialization?",
+    "gold": "15 credits (8 specialization-compulsory + 7 elective), revised from 20 by the circular of 11 Jan 2024.",
+    "expect": [
+      [
+        "15"
+      ]
+    ],
+    "sources": [
+      "Credit_Revision"
+    ]
+  },
+  {
+    "id": "P05",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "Can students admitted in 2026 change their branch?",
+    "gold": "No. Branch change is discontinued for UG admissions from AY 2026-27 onwards (Senate, 43rd meeting).",
+    "expect": [
+      [
+        "discontinu",
+        "not be able",
+        "cannot",
+        "will not",
+        "not allowed",
+        "not permitted"
+      ]
+    ],
+    "sources": [
+      "Discontinuation of Branch Change"
+    ]
+  },
+  {
+    "id": "P06",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "What is the duration of the Major examination and its minimum weightage in the overall evaluation?",
+    "gold": "3 hours; weightage not less than 40%. Must also state the 75% attendance requirement (exam question).",
+    "expect": [
+      [
+        "3 hour",
+        "three hour",
+        "3-hour"
+      ],
+      [
+        "40"
+      ],
+      [
+        "75"
+      ]
+    ],
+    "sources": [
+      "Circular_52"
+    ]
+  },
+  {
+    "id": "P07",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "What is the maximum duration allowed to complete a B.Tech. program?",
+    "gold": "14 registered semesters.",
+    "expect": [
+      [
+        "14"
+      ]
+    ],
+    "sources": [
+      "Academic_Regulations"
+    ]
+  },
+  {
+    "id": "P08",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "What happens if a student is absent from all academic activities for four or more weeks in a semester?",
+    "gold": "Automatic semester withdrawal (with or without sanctioned leave).",
+    "expect": [
+      [
+        "withdraw"
+      ]
+    ],
+    "sources": [
+      "Circular_51"
+    ]
+  },
+  {
+    "id": "P09",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "What CGPA does a B.Tech. in X + Engineering Science student need to apply for a branch change at the end of the fourth semester?",
+    "gold": "CGPA >= 8.0 (>= 7.0 for SC/ST/PD), plus all credits completed, no backlog, no disciplinary action.",
+    "expect": [
+      [
+        "re:\\b8(\\.0)?\\b"
+      ]
+    ],
+    "sources": [
+      "Circular_24"
+    ]
+  },
+  {
+    "id": "P10",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "Who is the Dean of Academic Affairs of IIT Jodhpur?",
+    "gold": "Prof. Rahul Chhibber (from 1 Sep 2026).",
+    "expect": [
+      [
+        "Chhibber"
+      ]
+    ],
+    "sources": [
+      "Office Order_Appointment"
+    ]
+  },
+  {
+    "id": "P11",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "How many total credits are required for a B.Tech. degree?",
+    "gold": "165 credits in total (150 graded + 15 non-graded).",
+    "expect": [
+      [
+        "165"
+      ]
+    ],
+    "sources": [
+      "Academic_Regulations",
+      "Curriculum",
+      "Circular 31",
+      "B.Tech BB",
+      "B.Tech CHEM",
+      "B.Tech MT",
+      "B.Tech CI",
+      "Mechanical-Engineering",
+      "Engineering Science _ Office",
+      "Pre-Registration"
+    ]
+  },
+  {
+    "id": "P12",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "When can an undergraduate student opt for a minor or specialization?",
+    "gold": "At the beginning of the 5th semester (or the beginning of any later semester).",
+    "expect": [
+      [
+        "5th",
+        "fifth"
+      ]
+    ],
+    "sources": [
+      "2799_Circular",
+      "Academic_Regulations"
+    ]
+  },
+  {
+    "id": "P13",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "If a student withdraws from a minor, what happens to the credits already earned in it?",
+    "gold": "They are counted in the Open Elective category for the degree requirements.",
+    "expect": [
+      [
+        "open elective"
+      ]
+    ],
+    "sources": [
+      "2799_Circular"
+    ]
+  },
+  {
+    "id": "P14",
+    "category": "policy",
+    "expected_agent": "policy_agent",
+    "answerable": true,
+    "question": "How early should students be seated in the examination hall for the Minor examinations of Semester I, 2026-27?",
+    "gold": "At least 15 minutes before the scheduled start time. Must also state the 75% attendance requirement (exam question).",
+    "expect": [
+      [
+        "15 min"
+      ],
+      [
+        "75"
+      ]
+    ],
+    "sources": [
+      "Minor Examination"
+    ]
+  },
+  {
+    "id": "S01",
+    "category": "schedule",
+    "expected_agent": "schedule_agent",
+    "answerable": true,
+    "question": "What is the slot for the course Autonomous Systems?",
+    "gold": "CSL7650 Autonomous Systems is in slot E (Tue, Thu, Fri 11:00-11:50), Gaurav Harit, LHC 106.",
+    "expect": [
+      [
+        "re:[Ss]lot\\W{0,4}E\\b|\\bE\\W{0,3}[Ss]lot"
+      ]
+    ],
+    "sources": [
+      "Classroom Allocation",
+      "Finalized courses",
+      "Slot System"
+    ]
+  },
+  {
+    "id": "S02",
+    "category": "schedule",
+    "expected_agent": "schedule_agent",
+    "answerable": true,
+    "question": "How many 400 level electives have been floated by the Humanities department in this semester?",
+    "gold": "2: LAL4070 Health Economics and LAL4850 Introduction to Climate Change Economics (both slot D).",
+    "expect": [
+      [
+        "re:(?i)\\b(2|two)\\b\\s+(\\S+\\s+){0,5}?(courses?|electives?)|\\b(are|is|of|total|count)\\W+(2|two)\\b"
+      ]
+    ],
+    "sources": [
+      "Classroom Allocation",
+      "Finalized courses"
+    ]
+  },
+  {
+    "id": "S03",
+    "category": "schedule",
+    "expected_agent": "schedule_agent",
+    "answerable": true,
+    "question": "Who is teaching Database Systems this semester, and in which slot?",
+    "gold": "CSL3050 Database Systems - Awathare Nitin Niranjan, slot A (Mon/Tue/Thu 9:00-9:50), LHC 2 101.",
+    "expect": [
+      [
+        "Awathare",
+        "Nitin"
+      ],
+      [
+        "re:[Ss]lot\\W{0,4}A\\b|\\bA\\W{0,3}[Ss]lot"
+      ]
+    ],
+    "sources": [
+      "Classroom Allocation"
+    ]
+  },
+  {
+    "id": "S04",
+    "category": "schedule",
+    "expected_agent": "schedule_agent",
+    "answerable": true,
+    "question": "When is the minor exam for Foundation Models and Generative AI?",
+    "gold": "CSL7860 Foundation Models and Generative AI is in slot K: minor exam on 17 September 2026 (Thursday), 02:00 PM to 04:00 PM (tentative). Must also state the 75% attendance requirement (exam question).",
+    "expect": [
+      [
+        "17"
+      ],
+      [
+        "02:00",
+        "2:00",
+        "2 pm",
+        "2pm",
+        "14:00"
+      ],
+      [
+        "75"
+      ]
+    ],
+    "sources": [
+      "Examination"
+    ]
+  },
+  {
+    "id": "S05",
+    "category": "schedule",
+    "expected_agent": "schedule_agent",
+    "answerable": true,
+    "question": "When is the major exam for Database Systems?",
+    "gold": "CSL3050 Database Systems is in slot A: major exam on 23 November 2026 (Monday), 09:00 AM to 12:00 PM (tentative). Must also state the 75% attendance requirement (exam question).",
+    "expect": [
+      [
+        "23 nov",
+        "23rd nov",
+        "november 23"
+      ],
+      [
+        "09:00",
+        "9:00",
+        "9 am",
+        "9am"
+      ],
+      [
+        "75"
+      ]
+    ],
+    "sources": [
+      "Major Exam"
+    ]
+  },
+  {
+    "id": "S06",
+    "category": "schedule",
+    "expected_agent": "schedule_agent",
+    "answerable": true,
+    "question": "In which classroom is Control Systems (EEL3040) held?",
+    "gold": "LHC 106.",
+    "expect": [
+      [
+        "LHC 106",
+        "LHC106"
+      ]
+    ],
+    "sources": [
+      "Classroom Allocation"
+    ]
+  },
+  {
+    "id": "E01",
+    "category": "email",
+    "expected_agent": "email_agent",
+    "answerable": false,
+    "question": "Write an email to the course instructor of CSL7570 that I need leave for 2 days",
+    "gold": "CSL7570 is not offered in the AY 2026-27 Semester I timetable, so no instructor/e-mail can be found; the agent should say so instead of inventing an address.",
+    "expect": [],
+    "must_not": [
+      "@iitj.ac.in"
+    ],
+    "sources": []
+  },
+  {
+    "id": "E02",
+    "category": "email",
+    "expected_agent": "email_agent",
+    "answerable": true,
+    "question": "Write an email to the instructor of CSL7650 requesting sick leave for 3 days.",
+    "gold": "Draft to gharit@iitj.ac.in (Prof. Gaurav Harit), medical leave for 3 days, not sent.",
+    "expect": [
+      [
+        "gharit@iitj.ac.in"
+      ],
+      [
+        "3 days",
+        "three days"
+      ]
+    ],
+    "sources": [
+      "iitj_faculty"
+    ]
+  },
+  {
+    "id": "E03",
+    "category": "email",
+    "expected_agent": "email_agent",
+    "answerable": true,
+    "question": "Draft an email to my Database Systems instructor asking for permission to take a make-up exam because I missed the minor exam due to fever.",
+    "gold": "Draft to nitina@iitj.ac.in (Nitin Awathare) requesting a make-up examination.",
+    "expect": [
+      [
+        "nitina@iitj.ac.in"
+      ],
+      [
+        "make-up",
+        "makeup",
+        "make up"
+      ]
+    ],
+    "sources": [
+      "iitj_faculty"
+    ]
+  },
+  {
+    "id": "E04",
+    "category": "email",
+    "expected_agent": "email_agent",
+    "answerable": true,
+    "question": "What is the email ID of the instructor of Introduction to Computer Science (CSL1010)?",
+    "gold": "Anand Mishra - mishra@iitj.ac.in (co-instructors Yashaswi Verma yashaswi@iitj.ac.in and others).",
+    "expect": [
+      [
+        "mishra@iitj.ac.in"
+      ]
+    ],
+    "sources": [
+      "iitj_faculty"
+    ]
+  },
+  {
+    "id": "E05",
+    "category": "email",
+    "expected_agent": "email_agent",
+    "answerable": true,
+    "question": "What is the email address of Prof. Mayank Vatsa?",
+    "gold": "mvatsa@iitj.ac.in",
+    "expect": [
+      [
+        "mvatsa@iitj.ac.in"
+      ]
+    ],
+    "sources": [
+      "iitj_faculty",
+      "Mayank Vatsa"
+    ]
+  },
+  {
+    "id": "O01",
+    "category": "out_of_scope",
+    "expected_agent": "out_of_scope_agent",
+    "answerable": false,
+    "question": "What are the available dining options on the campus?",
+    "gold": "Refuse (I don't know) and log.",
+    "expect": [],
+    "sources": []
+  },
+  {
+    "id": "O02",
+    "category": "out_of_scope",
+    "expected_agent": "out_of_scope_agent",
+    "answerable": false,
+    "question": "What is the best way to reach the campus from Jodhpur city center?",
+    "gold": "Refuse (I don't know) and log.",
+    "expect": [],
+    "sources": []
+  },
+  {
+    "id": "O03",
+    "category": "out_of_scope",
+    "expected_agent": "out_of_scope_agent",
+    "answerable": false,
+    "question": "What will the weather be like in Jodhpur tomorrow?",
+    "gold": "Refuse (I don't know) and log.",
+    "expect": [],
+    "sources": []
+  },
+  {
+    "id": "O04",
+    "category": "out_of_scope",
+    "expected_agent": "out_of_scope_agent",
+    "answerable": false,
+    "question": "Can you write a Python function to reverse a linked list?",
+    "gold": "Refuse (I don't know) and log.",
+    "expect": [],
+    "sources": []
+  },
+  {
+    "id": "O05",
+    "category": "out_of_scope",
+    "expected_agent": "out_of_scope_agent",
+    "answerable": false,
+    "question": "Which is the best restaurant in Jodhpur for a birthday dinner?",
+    "gold": "Refuse (I don't know) and log.",
+    "expect": [],
+    "sources": []
+  }
+]
